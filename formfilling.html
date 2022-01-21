@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+input:focus {
+    background-color: black;
+}
+</style>
+</head>
+<body>
+<form action="http://www.facebook.com" method="get" target="_blank"> <!--This can come in handy for filling of forms-->
+    Firstname: <input type="text" name="fname"><br>
+    Lastname: <input type="text" name="lname"><br>
+    <input type="submit" value="submit">
+</form>
+
+</body>
+</html>
+
+<button><a href="http://www.meetwild.com" target="_blank">Submit</a></button><br>
+
+<!--This codings is used to fill forms online-->
+-----------------------------------------------------------------------------------------------------------------------
+
+<!--The normal coding-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+input:focus {
+  background-color: yellow;
+}
+</style>
+</head>
+<body>
+
+<p>Click inside the text fields to see a yellow background:</p>
+
+<form>
+  First name: <input type="text" name="firstname"><br>
+  Last name: <input type="text" name="lastname">
+</form>
+
+<p><b>Note:</b> For :focus to work in IE8, a DOCTYPE must be declared.</p>
+
+</body>
+</html>
+-----------------------------------------------------------------------------------------------------------------------
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+input[type=text] {
+  width: 10%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing:border-box;  
+  border: 3px solid #CCC;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;                                                                      
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+</style>
+</head>
+<body>
+  
+<p>Padded text fields:</p>
+
+<form>
+  <label for="fname">First Name</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last Name</label><br>
+  <input type="text" id="lname" name="lname"><br>
+</form>
+
+</body>
+</html>
+<!--Transition form filling-->

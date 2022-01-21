@@ -1,0 +1,82 @@
+ls<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+.box {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+} 
+</style>
+</head>
+<body>
+    
+<h2>Grid of Boxes</h2>
+<p>Float boxes side by side</p>
+
+<div class="clearfix">
+    <div class="box" style="background-color:#bbb">
+    <p>Some text inside the box.</p>
+    </div>
+    <div class="box" style="background-color:#ccc">
+    <p>Some text inside the box</p>
+    </div>
+    <div class="box" style="background-color: #ddd">
+    <p>Some text inside the box</p>
+    </div>
+</div>
+</body>
+</html>
+
+<!--Topic: CSS FLOAT-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+div.img {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.clearfix::after {
+    content:"";
+    clear: both;
+    display: table;
+}
+</style>
+</head>
+<body>
+
+<h2>Images side by side</h2>
+<p>Float images side by side</p>
+
+<div class="clearfix">
+    <div class="img">
+    <img src="small.jpg" alt="painting" style="width:100%;">
+    </div>
+    <div class="img">
+    <img src="small.jpg" alt="painting" style="width:100%;">
+    </div>
+    <div class="img">
+    <img src="small.jpg" alt="painting" style="width:100%;">
+    </div>
+    
+    <p>Note that we also use the clearfix hack to take care of the layout flow, 
+        and that we add the box-sizing property to make sure that the image 
+        container doesn't break due to extra padding. Try to remove this code to see the effect.</p>
+
+
+</body>
+</html>

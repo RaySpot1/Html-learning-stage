@@ -1,0 +1,87 @@
+body {
+    font-family: 'Anheim';
+    font-size: 1.2em;
+}
+
+/*Headings*/
+#outside {
+    background-color: lightgoldenrodyellow;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+h1 {
+    font-size: 1.5em;
+    text-align: center;
+    text-transform: capitalize;
+}
+form {
+    /*To Center the form on the page*/
+    margin: 0 auto;
+    width: 70%;
+    /*To see the limits of the form*/
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+}
+#survey-form {
+    background-color: white;
+}
+
+/*Personal Details*/
+
+fieldset {
+    border: 1px solid lightgrey;
+    margin: 10px;
+}
+legend {
+    font-weight: 700;
+}
+#number {
+    width: 150px;
+}
+div + div {
+    margin-top: 1em;
+}
+
+/* label {
+    /* To make sure that all label have the same size and are properly aligned */
+    /* display: inline-block; */
+    /*width: 80px*/
+    /*text-align: right;
+    }
+*/
+input, textarea {
+    width: 200px;
+    border: 1px solid #999;
+}
+input:focus, textarea:focus {
+    border-color: orangered;
+}
+textarea {
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+}
+
+
+.button {
+    /*To position the buttons to the same position of the text fields*/
+    padding-left: 90px; /*same size as the label buttons*/
+
+}
+button {
+    margin: .5em;
+    font-size: 1em;
+    text-transform: capitalize;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+#submitbutton {
+    display: flex;
+    justify-content: center;
+}
+

@@ -1,0 +1,82 @@
+body {
+    background-color: black;
+    cursor: default;
+}
+table {
+    position: absolute;
+    background-color: rgb(131, 125, 125);
+    width: 260px;
+    height: 450px;
+    border-radius: 4px;
+    top: 150px;
+    left: 500px;
+}
+#display {
+    position: absolute;
+    width: 200px;
+    height: 25px;
+    font-size: 26px;
+    text-align: right;
+    background-color: #bcbd95;
+    float: center;
+    left: 14px;
+    top: 40px;
+    border-radius: 10px;
+}
+input {
+    position: relative;
+    border-radius: 30px;
+    font-size: 20px;
+    top: 11px;
+    left: 10%;
+    padding: 15px;
+    outline: none;
+    margin: 0px ;
+    border: 0;
+    height: 50px;
+    width: 50px;
+}
+#clear {
+    position: relative;
+    background-color: #ff9fa8;
+    outline: none;
+}
+#line1 {
+    position: absolute;
+    width: 50%;
+    left: 15px;
+    top: 110px;
+}
+#line2 {
+    position: absolute;
+    width: 50%;
+    right: 115px;
+    top: 170px;
+}
+#line3 {
+    position: absolute;
+    width: 50%;
+    top: 230px;
+    left: 15px;
+}
+#line4 {
+    position: absolute;
+    width: 50%;
+    left: 15px;
+    top: 290px;
+    
+}
+#line5 {
+    position: absolute;
+    width: 50%;
+    left: 123px;
+    top: 350px;
+}
+#num0 {
+    position: absolute;
+    right: 190px;
+    top: 350px;
+}
+#color {
+    background-color: orange;
+}

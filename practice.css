@@ -1,0 +1,29 @@
+.box {
+    color: black;
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 4px 4px 0 rgba(0,0,0,0,1);;
+    padding: 10px;
+}
+
+.box1 {background-color: green;}
+.box2 {background-color: blue;}
+.box3 {background-color: yellow;}
+.box4 {background-color: purple;}
+.box5 {background-color: red;}
+.box6 {background-color: orange;}
+.box7 {background-color: olive;}
+.box8 {background-color: indigo;}
+.box9 {background-color: turquoise;}
+.box10 {background-color: violet;}
+
+.container {
+    display: flex;
+    border: 10px solid mistyrose;
+    align-items: baseline;
+    height: 100vh;
+}
+
+.box1 {font-size: 30px;}
+.box3 {font-size: 150px;}
+.box4 {font-size: 200px;}

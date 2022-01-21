@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Fun",
+            "request": "launch",
+            "mainClass": "School.Fun",
+            "projectName": "CutiesResponsive_44325853"
+        }
+    ]
+}

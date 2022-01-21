@@ -1,0 +1,75 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: White;
+}
+  
+.cd-logo, .kitchen-equipment, .cake-ingredients, .flavor-img {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #642580;
+    background-size: cover;
+    min-height: 50%;
+    background-attachment: fixed; /*scrolling over background images*/
+}
+  
+.cd-logo {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/99/CoderDojo_Logo.png");
+    min-height: 100%;
+    background-size: auto;
+}
+  
+h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: white;
+    text-align:center
+}
+  
+.textSection {
+    background-color:#642580;
+    padding:50px 80px;
+}
+
+.kitchen-equipment {
+    background-image: url("https://www.thedailymeal.com/sites/default/files/2018/10/05/Kitchen_Tools_HERO.jpg");
+}
+
+.cake-ingredients {
+    background-image: url("https://c8.alamy.com/comp/F662K4/ingredients-to-make-a-cake-or-a-dessert-on-an-aged-wooden-table-F662K4.jpg");
+}
+
+.caption {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+}
+
+.border {
+    background-color: #41BAC1;
+    color: white;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+.cake-flavors {
+    background-color: #642580;
+    padding: 50px 80px;
+}
+
+.flavor-img {
+    background-image: url("https://www.ggmixblog.com/wp-content/uploads/2016/04/rainbow-cake-jpg-1024x748.jpg");
+}
+
+/* Turn off parallax scrolling for tablets and phones as it is not supported */
+
+@media only screen and (max-device-width: 1024px) {
+    .cd-logo, .kitchen-equipment, .cake-ingredients, .flavor-img {
+        background-attachment: scroll;
+    } 
+}
